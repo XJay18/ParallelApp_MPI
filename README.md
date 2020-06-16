@@ -12,7 +12,7 @@ mpic++ -std=c++11 -c Matrix.cpp Trap.cpp OddEvenSorting.cpp MPIApp.cpp
 ```
 - link with g++
 ```bash
-mpic++ -o Matrix.o Trap.o OddEvenSorting.o MPIApp.o app
+mpic++ Matrix.o Trap.o OddEvenSorting.o MPIApp.o -o app
 ```
 
 - use app
